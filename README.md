@@ -1,5 +1,6 @@
 # DCMotorControlGui-Cpp-CLI-
 Control DC Motor by using Cpp/CLI GUI and Arduino
+---------------------------------------------------------
 Author: Pham Hieu
 Email: hieu.phamnt39@gmail.com
 ----------------------------------------------------------
