@@ -3,7 +3,6 @@ Control DC Motor by using Cpp/CLI GUI and Arduino
 ---------------------------------------------------------
 Author: Pham Hieu
 Email: hieu.phamnt39@gmail.com
-----------------------------------------------------------
 SETUP:
 This program was developed on Visual Studio 2019 Community.
 In C++/CLR case, it's running on.NET4, you may need to install the related tool on Visual Studio.
