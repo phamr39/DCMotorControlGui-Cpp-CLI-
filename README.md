@@ -24,6 +24,6 @@ USAGE and DEV:
 - Clone this repo and go to MotorControlCLI folder, open MotorControl.sln with Visual Studio
 Click Local Windows Debugger to run this GUI. (It maybe has a quite different from your Visual Studio version)
 - Connect the Arduino. In default, the Arduino open the Serial Port with 38400, you must choose this Baudrate on the GUI
-
+- To get the COM port, Go to Device Manager -> Port(COM & LPT). You will see something like Arduino Uno (COM5)
 ----------------------------------------------------------
 Feel free to report the issues, I will fix it as soon as possible :) 
