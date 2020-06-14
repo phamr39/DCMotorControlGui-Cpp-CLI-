@@ -1,0 +1,6 @@
+﻿  CppCLR_WinformsProjekt.cpp
+F:\Desktopfoder\DCMotor_PythonGUI_Arduino\CppProject\MotorControlCLI\MotorControlCLI\Form1.h(871,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+F:\Desktopfoder\DCMotor_PythonGUI_Arduino\CppProject\MotorControlCLI\MotorControlCLI\Form1.h(877,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+F:\Desktopfoder\DCMotor_PythonGUI_Arduino\CppProject\MotorControlCLI\MotorControlCLI\Form1.h(883,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  MotorControlCLI.vcxproj -> F:\Desktopfoder\DCMotor_PythonGUI_Arduino\CppProject\MotorControlCLI\Debug\MotorControlCLI.exe
