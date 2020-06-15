@@ -4,7 +4,7 @@
 #define er2 3
 unsigned long timer = 0;
 double deltaT = 20000;   // us    minimum of 500 us, but set >1000us to be safe
-
+int set_speed = 0;
 bool g_isStart = false;
 bool g_direct = false;
 bool g_led = false;
@@ -50,7 +50,7 @@ void loop() {
   double data1 = g_desiredBackEMF;
   double data2 = backEMF;
   double data3 = error;
-  sendToPC(&data1, &data2, &data3);
+  //sendToPC(&data1, &data2, &data3);
   
   getSerialData();
 
@@ -113,7 +113,6 @@ void sendToPC(double* data1, double* data2, double* data3)
                  byteData3[0], byteData3[1], byteData3[2], byteData3[3]};
   Serial.write(buf, 12);
 }
-
 void getSerialData()
 {
   while (Serial.available())
@@ -145,6 +144,7 @@ void getSerialData()
         break;
       case 'S':
         tmp = getVal();
+        set_speed = tmp.toInt();
         if (tmp != "X")
         {
           g_desiredBackEMF = tmp.toInt()/ 1700.0 * 11.0; // 0<tmp<255    0<backEMF<1.65
